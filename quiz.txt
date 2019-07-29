@@ -1,1 +1,2 @@
 Este es el archivo de examen de git
+Constara de aprender a viajar en el tiempo de mis proyectos
