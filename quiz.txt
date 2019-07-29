@@ -1,2 +1,8 @@
 Este es el archivo de examen de git
 Constara de aprender a viajar en el tiempo de mis proyectos
+
+*******************
+**Contenido extra**
+*******************
+
+Este contenido es creado con la mejor de mis intenciones de que tu aprendas git
