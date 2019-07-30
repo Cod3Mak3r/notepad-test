@@ -1,0 +1,9 @@
+Para crear la llave ssh se usa
+	ssh-keygen -t rsa -b 4096 -C "tu_email@gmail.com"
+Una vez tengamos la llave ssh, tenemos que agregarla al entorno del sistema
+	eval $(ssh-agent -s)
+Te devolvera algo como "Agent pid 4724"
+Ahora agregamos la llave privada a nuestro sistema o servidor
+	ssh-add ~/.ssh/id_rsa
+
+Ya has creado tus llaves SSH

@@ -1,0 +1,11 @@
+Para configurar mis llaves SSH en github, debemos ir a "settings" en github
+Luego en SSH and GPG keys
+Luego le damos en agregar SSH keys
+Pondremos un nombre a la llave publica, y la misma llave publica
+Ahora en el repositorio, cambiamos a ssh.
+
+En nuestra entorno local, configuramos la url
+	git remote set-url origin "aqui_la_url_ssh_que_nos_dio_github"
+Ahora cuando ejecutemos  git remote -v nos saldra en origin la nueva url ssh publica
+
+Esto evita con respecto a https que tengamos que estar poniendo la contraseña una y otra vez.
