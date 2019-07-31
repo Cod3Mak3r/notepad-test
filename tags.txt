@@ -1,0 +1,11 @@
+Para crear un tag se usa  
+	git tag -a "version_de_tag" -m "mensaje" aqui_el_hash_del_commit
+Para ver los tags creados se usa
+	git tag
+Para enviar el tag a github se usa
+	git push origin --tags  (es buena practica hacer un pull al repositorio remoto cada que se haga un push)
+Para eliminar el tag de manera local se usa
+	git tag -d "nombre_del_tag"
+Este comando no borrara la referencia del tag en el repositorio remoto, para borrarlo tambien de github se usa
+	git push origin :refs/tags/nombre-del-tag-a-borrar
+
